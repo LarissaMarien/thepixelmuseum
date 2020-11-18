@@ -1,0 +1,447 @@
+body {
+  border: 1px solid lightgrey;
+  padding: 1vw;
+  margin: 1vw;
+  font-family: 'VT323', monospace;
+}
+
+header {
+  padding: 2rem;
+  background-color: black;
+  color: white;
+}
+
+nav {
+  font-size: 1.6rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2.5rem
+}
+
+.logo {
+  width: 30vh;
+  height: 10vh;
+  margin-top: 5px;
+  background-color: black;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(24, 0.1fr);
+  border-top: 1px solid black;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.oranjelogo {
+  background-color: orange;
+  animation-name: oranjelogo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes oranjelogo {
+    50% {
+          background-color: purple;
+    }
+    100% {
+          background-color: orange;
+}}
+
+.roodlogo {
+  background-color: red;
+  animation-name: roodlogo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes roodlogo {
+    50% {
+          background-color: deepskyblue;
+    }
+    100% {
+          background-color: red;
+}}
+
+.blauwlogo {
+  background-color: deepskyblue;
+  animation-name: blauwlogo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blauwlogo {
+    50% {
+          background-color: green;
+    }
+    100% {
+          background-color: deepskyblue;
+}}
+
+.groenlogo {
+  background-color: yellowgreen;
+  animation-name: groenlogo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes groenlogo {
+    50% {
+          background-color: orange;
+    }
+    100% {
+          background-color: yellowgreen;
+}}
+
+.paarslogo {
+  background-color: purple;
+  animation-name: paarslogo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes paarslogo {
+    50% {
+          background-color: red;
+    }
+    100% {
+          background-color: purple;
+}}
+
+.rooslogo{
+  background-color: deeppink;
+  animation-name: rooslogo;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rooslogo {
+    50% {
+          background-color: deepskyblue;
+    }
+    100% {
+          background-color: deeppink;
+}}
+
+.zwartlogo {
+  background-color: black;
+}
+
+#box {
+  margin: 1vw;
+  margin-bottom: 2vw;
+  padding: 2vw;
+  box-sizing: border-box;
+}
+
+p {
+  font-weight: 400;
+  font-size: 90%;
+  line-height: 190%;
+}
+
+h1 {
+  font-size: 50px;
+
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 5vh;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.text {
+  grid-area: text;
+  background-color: white;
+  margin: 1vw;
+  margin-bottom: 1vw;
+  padding: 1vw;
+  color: red;
+  animation-name: regenboog;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes regenboog {
+    10% {
+          color: red;
+    }
+    20% {
+          color: gold;
+    }
+    30% {
+          color: yellowgreen;
+    }
+    40% {
+          color: deepskyblue;
+    }
+    50% {
+          color: purple;
+    }
+    60% {
+          color: deeppink;
+    }
+    70% {
+          color: red;
+    }
+    80% {
+          color: gold;
+    }
+    90% {
+          color: yellowgreen;
+    }
+    100% {
+          color: deepskyblue;
+}}
+}
+
+.gridextragroot {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+div.bord {
+  width: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40vh;
+  background-color: black;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(15, 0.1fr);
+  border-top: 1px solid black;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.wit {
+  background-color: white;
+}
+.rood {
+  background-color: red;
+  animation-name: hart;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hart {
+    50% {
+          background-color: red;
+    }
+    100% {
+          background-color: darkred;
+}}
+
+.roos {
+  background-color: yellow;
+  animation-name: roos;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes roos {
+    50% {
+          background-color: yellow;
+    }
+    100% {
+          background-color: pink;
+}}
+
+.blauw {
+  background-color: deepskyblue;
+}
+.geel {
+  background-color: yellow;
+}
+.zwart {
+  background-color: black;
+}
+
+.blink {
+  background-color: deepskyblue;
+  animation-name: tears;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tears {
+      50% {
+            background-color: deepskyblue;
+      }
+      100% {
+            background-color: yellow;
+}}
+
+.tongbp {
+  background-color: black;
+  animation-name: tongbp;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tongbp {
+      50% {
+            background-color: black;
+      }
+      100% {
+            background-color: deeppink;
+}}
+
+.tongyp {
+  background-color: yellow;
+  animation-name: tongyp;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tongyp {
+      50% {
+            background-color: yellow;
+      }
+      100% {
+            background-color: deeppink;
+}}
+
+.bril {
+  background-color: white;
+  animation-name: bril;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bril {
+    50% {
+          background-color: white;
+    }
+    100% {
+          background-color: black;
+}}
+
+.ogen {
+  background-color: white;
+  animation-name: ogen;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ogen {
+    50% {
+          background-color: white;
+    }
+    100% {
+          background-color: deepskyblue;
+}}
+
+footer {
+  color: white;
+  background-color: black;
+  font-size: 1.6rem;
+  padding: 2rem 2rem;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+footer p {
+  text-align: center;
+  margin: 2rem 0;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 800px) {
+  main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas:"text text"
+                        "a b"
+                        "f f"
+                        "c c";
+}
+
+h3 {
+  font-size: 60px;
+}
+
+.art1 {
+  grid-area: a;
+}
+
+.art2 {
+  grid-area: b;
+}
+
+.art3 {
+  grid-area: c;
+}
+
+.art4 {
+  grid-area: d;
+}
+
+.art5 {
+  grid-area: e;
+}
+
+.gridextragroot {
+  grid-area: f;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "d e";
+  padding: 0;
+  margin: 0;
+}
+
+div.bord {
+  width: 45vh;
+  height: 45vh;
+}
+
+@media (min-width: 1150px) {
+  main {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas:"text text text"
+                        "a b c"
+                        "f f f";
+}
+
+h3 {
+  font-size: 70px;
+}
+
+nav {
+  grid-area: nav;
+}
+
+nav a {
+  font-size: 35px;
+}
+
+.titel {
+  grid-area: titel;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "titel nav";
+}
+
+div.bord {
+  width: 50vh;
+  height: 50vh;
+}
